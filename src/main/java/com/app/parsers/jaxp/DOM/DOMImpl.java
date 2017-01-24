@@ -1,7 +1,7 @@
-package com.app.parsers.DOM;
+package com.app.parsers.jaxp.DOM;
 
-import com.app.domain.Employee;
-import com.app.parsers.Processor;
+import com.app.parsers.jaxp.domain.Employee;
+import com.app.parsers.jaxp.Processor;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
