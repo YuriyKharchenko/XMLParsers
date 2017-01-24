@@ -1,6 +1,6 @@
-package com.app.parsers;
+package com.app.parsers.jaxp;
 
-import com.app.domain.Employee;
+import com.app.parsers.jaxp.domain.Employee;
 
 import java.io.File;
 import java.util.List;

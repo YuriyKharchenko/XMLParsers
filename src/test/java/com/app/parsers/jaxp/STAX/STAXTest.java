@@ -1,7 +1,6 @@
-package com.app.parsers.DOM;
+package com.app.parsers.jaxp.STAX;
 
-import com.app.domain.Employee;
-import com.app.parsers.DOM.DOMImpl;
+import com.app.parsers.jaxp.domain.Employee;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -11,11 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by uras on 23.01.2017.
+ * Created by uras on 24.01.2017.
  */
-
-public class DOMTest {
-
+public class STAXTest {
     private static final File TESTFILE = new File("test.xml");
 
     public static List<Employee> expectedResult = new ArrayList<>();
@@ -32,11 +29,9 @@ public class DOMTest {
 
     @Test
     public void getEmployeeTest() throws Exception {
-        DOMImpl dom = new DOMImpl();
-        List<Employee> actualResult = dom.getEmployees(TESTFILE);
+        STAXImpl sax = new STAXImpl();
+        List<Employee> actualResult = sax.getEmployees(TESTFILE);
 
         Assert.assertEquals(expectedResult, actualResult);
     }
-
-
 }

@@ -1,7 +1,6 @@
-package com.app.parsers.SAX;
+package com.app.parsers.jaxp.SAX;
 
-import com.app.domain.Employee;
-import com.app.parsers.SAX.SAXImpl;
+import com.app.parsers.jaxp.domain.Employee;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

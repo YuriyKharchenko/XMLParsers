@@ -1,4 +1,4 @@
-package com.app.domain;
+package com.app.parsers.jaxp.domain;
 
 /**
  * Created by uras on 23.01.2017.

@@ -1,6 +1,6 @@
-package com.app.parsers.SAX;
+package com.app.parsers.jaxp.SAX;
 
-import com.app.domain.Employee;
+import com.app.parsers.jaxp.domain.Employee;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
